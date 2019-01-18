@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.signature {
+  font-family: 'Indie Flower', cursive !important;
+}
+
+
+.link {
+  color: var(--main)
+}
+
+.link:hover {
+  color: var(--accent)
+}
+
+.emph {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.progress-bar {
+  background: var(--accent);
+}
+
+.single-progress-txt h3 {
+  color: var(--accent)
+}
+
+
+.work-list li {
+  margin-top:10px;
+  list-style:circle;
+}

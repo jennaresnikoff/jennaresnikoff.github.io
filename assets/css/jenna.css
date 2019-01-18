@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
 .signature {
-  font-family: 'Indie Flower', cursive !important;
+  font-family: 'Fredericka the Great', cursive !important;
 }
+
+.navbar-brand {
+  font-size: 2em !important;
+}
+
+
 
 
 .link {
@@ -92,6 +98,10 @@ transform: rotate(18deg);
 
 .big-star {
   height: 200px;
+}
+
+.star {
+  filter: brightness(0) invert(1);
 }
 
 .tag {

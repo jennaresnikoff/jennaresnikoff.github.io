@@ -28,8 +28,10 @@ font-family: 'Poppins', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 :root {
-  --main: #50C5B7;
-  --accent: #7FD4CA;
+  --main: #09173A;
+  --accent: #212e4d;
+  /* --main: #50C5B7;
+  --accent: #7FD4CA; */
   --accent2: #5ED6AC;
   --old: #d92cf9;
 }
@@ -199,7 +201,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: var(--main);}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/welcome-banner1.png)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -209,7 +211,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: var(--main);}
     content: " ";
     top:0;
     left:0;
-    background:rgba(31,44,108,.65);
+    background:rgba(31,44,108,.10);
     width:100%;
     height:100%;
 }

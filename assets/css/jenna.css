@@ -14,7 +14,7 @@
 }
 
 .emph {
-  color: var(--accent);
+  color: var(--accent) !important;
   font-weight: bold;
 }
 
@@ -47,7 +47,59 @@
     box-shadow: 0 8px 16px 0 black;
 }
 
-.portfolio-entry a {
+
+.portfolio-entry h3 {
+  font-size: 24px;
   color: white;
+  font-style: italic;
+}
+
+.portfolio-entry p {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+}
+
+.pub a {
   font-size:18px;
+}
+
+.pub a:hover {
+  color: var(--main);
+}
+
+.pub {
+  margin-bottom:10px;
+}
+
+.small-star {
+  height: 80px;
+  -webkit-transform:rotate(18deg);
+-moz-transform: rotate(18deg);
+-ms-transform: rotate(18deg);
+-o-transform: rotate(18deg);
+transform: rotate(18deg);
+}
+
+.med-star {
+  height: 140px;
+  -webkit-transform:rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(24deg);
+}
+
+.big-star {
+  height: 200px;
+}
+
+.tag {
+  border: 1px solid var(--main);
+  margin-top: 5px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+  background: var(--main);
+  color: white;
 }
